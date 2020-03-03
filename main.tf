@@ -12,7 +12,7 @@ locals {
 
 
 data "alicloud_instance_types" "this" {
-  nstance_type_family  = var.instance_type_family != "" && contains(local.instance_type_families, var.instance_type_family) ? var.instance_type_family : "null"
+  instance_type_family  = var.instance_type_family != "" && contains(local.instance_type_families, var.instance_type_family) ? var.instance_type_family : "null"
   instance_charge_type = var.instance_charge_type
   cpu_core_count       = var.cpu_core_count > 0 ? var.cpu_core_count : null
   memory_size          = var.memory_size > 0 ? var.memory_size : null
