@@ -36,7 +36,7 @@ module "ecs_instance" {
 
 ## 注意事项
 
-* 本 Module 使用的 AccessKey 和 SecretKey 可以直接从 `profile` 和 `shared_credentials_file` 中获取。如果未设置，可通过下载安装 [aliyun-cli](https://github.com/aliyun/aliyun-cli#installation) 后进行配置。
+本Module从版本v1.9.0开始已经移除掉如下的 provider 的显示设置：
 
 提交问题
 ------
