@@ -10,10 +10,6 @@ These types of resources are supported:
 
 * [ECS Instance](https://www.terraform.io/docs/providers/alicloud/r/instance.html)
 
-## Terraform versions
-
-This module requires Terraform 0.12 and Terraform Provider AliCloud 1.56.0+.
-
 ## Usage
 
 ```hcl
@@ -39,8 +35,8 @@ module "ecs_instance" {
 
 ## Notes
 
-* This module using AccessKey and SecretKey are from `profile` and `shared_credentials_file`.
-If you have not set them yet, please install [aliyun-cli](https://github.com/aliyun/aliyun-cli#installation) and configure it.
+From the version v1.9.0, the module has removed the following `provider` setting:
+More details see [How to use provider in the module](https://www.terraform.io/docs/language/modules/develop/providers.html#passing-providers-explicitly)
 
 Submit Issues
 -------------
