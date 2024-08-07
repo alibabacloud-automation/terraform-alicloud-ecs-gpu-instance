@@ -1,4 +1,7 @@
-## 1.3.0 (Unreleased)
+## 1.3.0 (August 07, 2024)
+
+- deprecate [GH-7](https://github.com/alibabacloud-automation/terraform-alicloud-ecs-gpu-instance/pull/7)
+
 ## 1.2.0 (December 6, 2021)
 
 ENHANCEMENTS:
